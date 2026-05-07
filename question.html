@@ -6,20 +6,20 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/common.css">
   <link rel="stylesheet" href="./css/question.css">
-  <title>Document</title>
+  <title>MBTI</title>
+  <!-- defer는 document를 다 읽고 나서 실행 하라는 뜻 -->
+  <script type="module" defer src="./js/question.js"></script>
 </head>
 <body>
   <div class="progress">
     <div class="value"></div>
   </div>
   <div class="question-box">
-    <div class="number">01</div>
-    <div class="question">곧 크리스마스! 회사에서 크리스마스 파티 스텝을 모집한다는데?</div>
-    <div class="btn btn-gray choice choice1">파티 스탭이 어쩌구</div>
-    <div class="btn btn-gray choice choice2"> 재밌겠다</div>
+    <div class="box_bg"></div>
+    <div class="number">번호</div>
+    <div class="question">질문</div>
+    <div class="btn btn-gray choice choice1">선택1</div>
+    <div class="btn btn-gray choice choice2">선택2</div>
   </div>
-  <a href="./index.html">
-    홈 화면으로 이동
-  </a>
 </body>
 </html>

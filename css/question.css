@@ -3,6 +3,7 @@ body {
   background-image: url("../images/questions_bg.jpg");
   background-position: top center;
   background-repeat: no-repeat;
+  margin: 0;
 }
 
 .progress {
@@ -21,11 +22,12 @@ body {
   height: 20px;
   background-color: #ffb103;
   border-radius: 10px;
-  transition: 0.2s;
+  transition: 0.4s;
 }
 
 .question-box {
-  width: 420px;
+  border-radius: 12px;
+  width: 450px;
   background-color: #fff;
   padding-top: 60px;
   padding-bottom: 90px;
@@ -33,27 +35,48 @@ body {
   padding-right: 40px;
   margin-left: auto;
   margin-right: auto;
-  box-shadow: #dde2e8;
+  box-shadow: 12px 14px #dde2e8;
+  position: relative;
+}
+
+.question-box .box_bg {
+  position: absolute;
+  opacity: 0.5;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-size: 550px 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .question-box .number {
+  position: relative;
   font-size: 60px;
   font-weight: 900;
-  color: #2ec7a6;
+  color: #b953c2;
   margin-bottom: 30px;
   text-align: center;
+  text-shadow: 2px 2px #fffc56;
 }
 
 .question-box .question {
-  font-size: 30px;
-  font-weight: 700;
+  position: relative;
+  font-size: 35px;
+  font-weight: bold;
   line-height: 1.5;
   text-align: center;
   margin-bottom: 40px;
+  color: #b953c2;
+  text-shadow: 2px 2px #fffc56;
 }
 
 .question-box .choice {
+  position: relative;
+  opacity: 0.8;
   font-size: 22px;
+  text-shadow: 1px 1px black;
   border-radius: 120px;
   margin-bottom: 40px;
 }

@@ -86,7 +86,8 @@ img {
   box-shadow: 0 14px 0 #dfe1e2;
 }
 .btn-gray:active {
-  box-shadow: 0 4px 0 #dfe1e2;
+  background-color: #eea9fc;
+  box-shadow: 0 4px 0 #dfe2e1;
 }
 
 .btn-small {
