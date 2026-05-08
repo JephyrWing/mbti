@@ -41,6 +41,7 @@ body {
 
 .question-box .box_bg {
   position: absolute;
+  border-radius: 12px;
   opacity: 0.5;
   top: 0px;
   left: 0px;

@@ -22,9 +22,25 @@ function nextQuestion(choiceNumber) {
   // - currentNumber를 하나 증가시킨다.
   // - 결과를 mbti 변수에 저장한다.
   if (currentNumber >= 10){
-      mbti = mbti + questions[currentNumber - 1].choices[choiceNumber].value;
-    console.log(mbti);
-    console.log('result.html로 이동');
+    mbti = mbti + questions[currentNumber - 1].choices[choiceNumber].value;
+    location.href = `../result.html?mbti=${mbti}`;
+    // 받는 페이지
+    // const urlParams = new URLSearchParams(window.location.search);
+    // const mbti = urlParams.get("mbti");
+    // console.log(mbti);
+
+
+    //===================================================================
+    // 보내는 페이지
+    // localStorage(또는 sessionStorage).setItem("mbti", mbti);
+    // location.href = "nextpage.html";
+
+    // 받는 페이지 에서는
+    // const mbti = localStorage(또는 sessionStorage).getItem("mbti");
+    // console.log(mbti);
+
+    // 삭제할 시
+    // localStorage.removeItem("mbti");
   } else {
     renderQuestion(currentNumber);
       mbti = mbti + questions[currentNumber - 1].choices[choiceNumber].value;
