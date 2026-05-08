@@ -148,7 +148,7 @@ export const results = [
   },
   {
     title: '인생 욜로지~<br>일단 놀자 ><',
-    character: './images/re sult_character6.png',
+    character: './images/result_character6.png',
     results: [
       '취미가 100개!<br>이것저것 다재다능해요~',
       '한가하냐고요?<br>원래 백수가 젤 바쁜 거에요!',
