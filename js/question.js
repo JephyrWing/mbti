@@ -23,7 +23,7 @@ function nextQuestion(choiceNumber) {
   // - 결과를 mbti 변수에 저장한다.
   if (currentNumber >= 10){
     mbti = mbti + questions[currentNumber - 1].choices[choiceNumber].value;
-    location.href = `../result.html?mbti=${mbti}`;
+    location.href = `/result.html?mbti=${mbti}`;
     // 받는 페이지
     // const urlParams = new URLSearchParams(window.location.search);
     // const mbti = urlParams.get("mbti");
