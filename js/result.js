@@ -29,4 +29,5 @@ function pageConductor() {
   lectureurlEl.setAttribute("href", result.lectureUrl)
 }
 
+
 pageConductor();

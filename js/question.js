@@ -48,7 +48,8 @@ function nextQuestion(choiceNumber) {
     currentNumber ++;
   }
 }  
-  
+ 
+
 // 3. 마지막 질문인지 확인해서 결과페이지로 넘긴다.
 // result.html -> console.log로 출력만
 function renderQuestion(currentNumber) {

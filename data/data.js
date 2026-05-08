@@ -160,6 +160,7 @@ export const results = [
     lectureUrl: 'http://localhost:5500/lecture.html'
   }
 ]
+
 export const mbtis = {
   entj: 0,
   entp: 0,
